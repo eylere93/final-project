@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>World of Warcraft PvP Website</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="The Doctors Submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="Companions Submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="Villains Submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="Show History Submenu" type="boolean" value="false" -->
+<link href="../website/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="Home Page Doctor" type="boolean" value="false" -->
+<!-- TemplateParam name="banner" type="boolean" value="false" -->
+<!-- TemplateParam name="doctors banner" type="boolean" value="false" -->
+<!-- TemplateParam name="companions banner" type="boolean" value="false" -->
+<!-- TemplateParam name="villains banner" type="boolean" value="false" -->
+<!-- TemplateParam name="show history banner" type="boolean" value="false" -->
+</head>
+
+<body class="body">
+<table class="general-width">
+  <tr>
+    <td><!-- TemplateBeginIf cond="banner" --><img src="../website/images/WoW-banner.jpg" width="1000" height="200"><!-- TemplateEndIf --></td>
+  </tr>
+  <tr>
+    <td class="primarynav"><a href="../website/index.html">Home</a> 
+    
+     <a href="../website/The Doctors/index.html">Types of PvP</a><a href="../website/Companions/index.html">Classes</a> 
+     
+      <a href="../website/Villains/index.html">Rewards</a> 
+      
+       <a href="../website/Show History/index.html">Popular Arena Teams</a></td>
+  </tr>
+</table>
+<table class="general-width">
+  <tr>
+    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['The Doctors Submenu']" -->
+      <p><a href="../website/Types of PvP/arena.html">Arena</a></p>
+      <p><a href="../website/Types of PvP/battleground.html">Battlegrounds</a></p>
+      <p><a href="../website/Types of PvP/duels.html">Duels</a></p>
+      <p><a href="../website/Types of PvP/randompvp.html">Random PvP</a></p>
+      <p><a href="../website/Types of PvP/worldzones.html">World Zones</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Submenu']" -->
+    <p><a href="../website/Classes/deathknight.html">Death Knight</a></p>
+    <p><a href="../website/Classes/druid.html">Druid</a></p>
+    <p><a href="../website/Classes/hunter.html">Hunter</a></p>
+    <p><a href="../website/Classes/mage.html">Mage</a></p>
+    <p><a href="../website/Classes/monk.html">Monk</a></p>
+    <p><a href="../website/Classes/paladin.html">Paladin</a></p>
+    <p><a href="../website/Classes/priest.html">Priest</a></p>
+    <p><a href="../website/Classes/rogue.html">Rogue</a></p>
+    <p><a href="../website/Classes/shaman.html">Shaman</a></p>
+    <p><a href="../website/Classes/warlock.html">Warlock</a></p>
+    <p><a href="../website/Classes/warrior.html">Warrior</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Villains Submenu']" -->
+    <p><a href="../website/rewards/honorpoints.html">Honor Points</a></p>
+    <p><a href="../website/rewards/conquestpoints.html">Conquest Points</a></p>
+    <p><a href="../website/rewards/titles.html">Titles</a></p>
+    <p><a href="../website/rewards/mounts.html">Mounts</a></p>
+    <p><a href="../website/rewards/tabards.html">Tabards</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Show History Submenu']" -->
+    <p><a href="../website/populararenateams/rmp.html">RMP</a></p>
+    <p><a href="../website/populararenateams/beastcleave.html">Beastcleave</a></p>
+    <p><a href="../website/populararenateams/wld.html">WLD</a></p>
+    <p><a href="../website/populararenateams/dblhealer.html">Double Healer Warrior</a></p>
+    <p><a href="../website/populararenateams/shadowcleave.html">Shadowcleave</a></p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Home Page Doctor']" -->
+    <p>Arenajunkies</p>
+    <p>Strategy Guides</p>
+    <p>Movies</p>
+    <p>Livestream</p>
+    <p>Tutor</p>
+    <!-- TemplateEndIf --></td>
+    <td class="contentstuff"><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<table class="general-width">
+  <tr>
+    <td class="bottom-nav"><p>Brendan Davey</p>
+    <p>Monica DuCong'e</p>
+    <p><strong>Erik Eyler</strong></p>
+    <p>Kayleen Garcia</p>
+    <p>Katie Hyche</p>
+    <p>Ryan Moeller</p></td>
+    <td class="bottom-nav"><p>Christine O'Brien</p>
+    <p>Alex Recinos</p>
+    <p>Julia Schwartz</p>
+    <p>Madeleine Schwartz</p>
+    <p>Ann Marie Skjold</p>
+    <p>Ashly Wilkins</p></td>
+    <td class="end-nav">Content derived from <a href="http://www.wowwiki.com/Portal:Main">WoWWiki</a>. </td>
+  </tr>
+</table>
+</body>
+</html>
